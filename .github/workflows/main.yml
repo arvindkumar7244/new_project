@@ -36,8 +36,7 @@ jobs:
           echo test, and deploy your project.
 
   generate_apk:
-    needs: [build]
-    name: generate apk
+
     runs-on: ubuntu-latest
 
     steps:
