@@ -37,6 +37,7 @@ jobs:
 
   generate_apk:
     needs: [build]
+    name: generate apk
     runs-on: ubuntu-latest
 
     steps:
